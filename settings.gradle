@@ -1,0 +1,5 @@
+include ':github'
+include ':actionbarsherlock'
+include ':roboguice-sherlock'
+include ':wishlist'
+

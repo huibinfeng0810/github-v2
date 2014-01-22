@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/huibin/Desktop/github-v2/roboguice-sherlock/res" >
+            <file
+                name="ic_launcher"
+                path="/home/huibin/Desktop/github-v2/roboguice-sherlock/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                path="/home/huibin/Desktop/github-v2/roboguice-sherlock/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >ACTIVITY_ENTRY_NAME
+                </string>
+            </file>
+            <file
+                name="main"
+                path="/home/huibin/Desktop/github-v2/roboguice-sherlock/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ic_launcher"
+                path="/home/huibin/Desktop/github-v2/roboguice-sherlock/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/huibin/Desktop/github-v2/roboguice-sherlock/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/huibin/Desktop/github-v2/roboguice-sherlock/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+        </source>
+        <source path="/home/huibin/Desktop/github-v2/roboguice-sherlock/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/huibin/Desktop/github-v2/roboguice-sherlock/src/debug/res" />
+    </dataSet>
+
+</merger>

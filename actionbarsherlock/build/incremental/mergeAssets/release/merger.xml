@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/huibin/Desktop/github-v2/actionbarsherlock/src/main/assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/huibin/Desktop/github-v2/actionbarsherlock/src/release/assets" />
+    </dataSet>
+
+</merger>
