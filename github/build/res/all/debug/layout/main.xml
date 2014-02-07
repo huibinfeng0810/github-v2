@@ -7,8 +7,8 @@
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, HomeActivity"
+            android:text="Hello World, ACTIVITY_ENTRY_NAME"
             />
 </LinearLayout>
 
-<!-- From: file:/home/huibin/Desktop/github-v2/github/res/layout/main.xml -->
+<!-- From: file:/home/huibin/Desktop/github-v2/roboguice-sherlock/res/layout/main.xml --><!-- From: file:/home/huibin/Desktop/github-v2/github/build/exploded-bundles/GithubV2RoboguiceSherlockUnspecified.aar/res/layout/main.xml -->
