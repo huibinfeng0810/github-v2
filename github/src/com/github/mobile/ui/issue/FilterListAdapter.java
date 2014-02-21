@@ -19,6 +19,7 @@ import android.view.LayoutInflater;
 import android.widget.TextView;
 import com.github.kevinsawicki.wishlist.SingleTypeAdapter;
 import com.github.kevinsawicki.wishlist.ViewUtils;
+import com.github.mobile.R;
 import com.github.mobile.R.id;
 import com.github.mobile.R.string;
 import com.github.mobile.core.issue.IssueFilter;
@@ -45,7 +46,7 @@ public class FilterListAdapter extends SingleTypeAdapter<IssueFilter> {
      */
     public FilterListAdapter(LayoutInflater inflater, IssueFilter[] elements,
             AvatarLoader avatars) {
-        super(inflater, layout.issues_filter_item);
+        super(inflater, R.layout.issues_filter_item);
 
         this.avatars = avatars;
         setItems(elements);

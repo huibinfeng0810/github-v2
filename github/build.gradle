@@ -2,9 +2,10 @@ apply plugin: 'android'
 
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
-    compile project(':actionbarsherlock')
     compile project(':roboguice-sherlock')
     compile project(':wishlist')
+    compile project(':viewpagerindicator')
+
 }
 
 task copyNativeLibs(type: Copy) {

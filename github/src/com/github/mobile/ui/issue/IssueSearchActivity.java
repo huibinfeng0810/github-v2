@@ -27,8 +27,8 @@ import com.github.mobile.R.string;
 import com.github.mobile.ui.repo.RepositoryViewActivity;
 import com.github.mobile.util.AvatarLoader;
 import com.github.mobile.util.ToastUtils;
-import com.github.rtyley.android.sherlock.roboguice.activity.RoboSherlockFragmentActivity;
 import com.google.inject.Inject;
+import com.rtyley.roboguice_sherlock.roboguice.activity.RoboSherlockFragmentActivity;
 import org.eclipse.egit.github.core.Repository;
 
 import static android.app.SearchManager.APP_DATA;

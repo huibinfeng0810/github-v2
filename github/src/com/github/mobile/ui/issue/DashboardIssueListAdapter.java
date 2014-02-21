@@ -18,6 +18,7 @@ package com.github.mobile.ui.issue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
+import com.github.mobile.R;
 import com.github.mobile.R.id;
 import com.github.mobile.core.issue.IssueUtils;
 import com.github.mobile.util.AvatarLoader;
@@ -41,7 +42,7 @@ public class DashboardIssueListAdapter extends
      */
     public DashboardIssueListAdapter(AvatarLoader avatars,
             LayoutInflater inflater, RepositoryIssue[] elements) {
-        super(layout.dashboard_issue_item, inflater, elements, avatars);
+        super(R.layout.dashboard_issue_item, inflater, elements, avatars);
     }
 
     @Override

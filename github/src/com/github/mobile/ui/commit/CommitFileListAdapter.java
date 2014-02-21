@@ -20,6 +20,7 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import com.github.kevinsawicki.wishlist.MultiTypeAdapter;
 import com.github.kevinsawicki.wishlist.ViewUtils;
+import com.github.mobile.R;
 import com.github.mobile.R.color;
 import com.github.mobile.R.id;
 import com.github.mobile.core.commit.FullCommitFile;
@@ -140,13 +141,13 @@ public class CommitFileListAdapter extends MultiTypeAdapter {
     protected int getChildLayoutId(final int type) {
         switch (type) {
         case TYPE_FILE_HEADER:
-            return layout.commit_diff_file_header;
+            return R.layout.commit_diff_file_header;
         case TYPE_FILE_LINE:
-            return layout.commit_diff_line;
+            return R.layout.commit_diff_line;
         case TYPE_LINE_COMMENT:
-            return layout.diff_comment_item;
+            return R.layout.diff_comment_item;
         case TYPE_COMMENT:
-            return layout.commit_comment_item;
+            return R.layout.commit_comment_item;
         default:
             return -1;
         }

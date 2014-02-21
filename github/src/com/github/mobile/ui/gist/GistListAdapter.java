@@ -20,6 +20,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
 import com.github.kevinsawicki.wishlist.SingleTypeAdapter;
+import com.github.mobile.R;
 import com.github.mobile.R.id;
 import com.github.mobile.R.string;
 import com.github.mobile.ui.StyledText;
@@ -46,7 +47,7 @@ public class GistListAdapter extends SingleTypeAdapter<Gist> {
      */
     public GistListAdapter(AvatarLoader avatars, Activity activity,
             Collection<Gist> elements) {
-        super(activity, layout.gist_item);
+        super(activity, R.layout.gist_item);
 
         this.avatars = avatars;
         setItems(elements);

@@ -9,10 +9,6 @@ android {
     lintOptions {
         abortOnError false
     }
-    dexOptions {
-        javaMaxHeapSize "4g"
-
-    }
 
 
     compileSdkVersion 19
